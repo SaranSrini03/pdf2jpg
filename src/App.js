@@ -13,9 +13,9 @@ function App() {
   return (
     <div style={{ height: "100dvh" }}>
       <Helmet>
-        <title>Pepper - Pdf2Jpg</title>
+        <title>Finter - Pdf2Jpg</title>
       </Helmet>
-      <h1 className="title1">PEPPER</h1>
+      <h1 className="title1">Finter</h1>
       <Grid container className="d-flex" sx={{ py: 6, px: 4 }}>
         <Grid item className="box">
           <FileInput onFileChange={(file) => setPdfFile(file)} />
