@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Helmet} from "react-helmet";
+
 
 import "./App.css";
 import { Grid } from "@mui/material";
@@ -12,13 +12,6 @@ function App() {
   const [pdfFile, setPdfFile] = useState(null);
   return (
     <div style={{ height: "100dvh" }}>
-      <Helmet>
-        <meta name="google-adsense-account" content="ca-pub-1984334076702409" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984334076702409"
-         crossorigin="anonymous">
-        </script>
-        <title>Finter - Pdf2Jpg</title>
-      </Helmet>
       <h1 className="title1">Finter</h1>
       <Grid container className="d-flex" sx={{ py: 6, px: 4 }}>
         <Grid item className="box">
