@@ -13,6 +13,9 @@ function App() {
   return (
     <div style={{ height: "100dvh" }}>
       <Helmet>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984334076702409"
+         crossorigin="anonymous">
+        </script>
         <title>Finter - Pdf2Jpg</title>
       </Helmet>
       <h1 className="title1">Finter</h1>
