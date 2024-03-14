@@ -13,7 +13,7 @@ function App() {
   return (
     <div style={{ height: "100dvh" }}>
       <Helmet>
-        <meta name="google-adsense-account" content="ca-pub-1984334076702409">
+        <meta name="google-adsense-account" content="ca-pub-1984334076702409" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1984334076702409"
          crossorigin="anonymous">
         </script>
